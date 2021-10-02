@@ -29,7 +29,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['henry-pizza-menu.herokuapp.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
