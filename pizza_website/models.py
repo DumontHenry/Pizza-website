@@ -8,5 +8,10 @@ class Pizza(models.Model):
     prix = models.FloatField(default=0)
     vegetarienne = models.BooleanField(default=False)
 
+    class Meta:
+        db_table = 'pizza_website_pizza'
+        managed = False
+
     def __str__(self):
         return self.nom
+
