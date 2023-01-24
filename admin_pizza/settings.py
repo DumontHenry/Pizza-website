@@ -182,4 +182,4 @@ mimetypes.add_type("text/css", ".css", True)
 
 
 if os.getcwd() == '/app':
-    DEBUG = False
+    DEBUG = True
